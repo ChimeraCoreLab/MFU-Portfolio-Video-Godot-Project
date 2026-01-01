@@ -1,0 +1,162 @@
+[gd_scene load_steps=15 format=3 uid="uid://dqdfsfn8ex7fu"]
+
+[ext_resource type="PackedScene" uid="uid://chl8asunrykqi" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_corner_ext.tscn" id="1_cwu5i"]
+[ext_resource type="PackedScene" uid="uid://cpd7xejpndtel" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_wall.tscn" id="2_t0pm1"]
+[ext_resource type="PackedScene" uid="uid://d074qsht0csym" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_window_4.tscn" id="3_0wqbw"]
+[ext_resource type="PackedScene" uid="uid://3km12b3aavah" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_door_1.tscn" id="4_3y013"]
+[ext_resource type="PackedScene" uid="uid://70couj6xwyd1" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a.tscn" id="5_ocqin"]
+[ext_resource type="PackedScene" uid="uid://dhon15ybrwl0l" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_edge.tscn" id="6_wlvp5"]
+[ext_resource type="PackedScene" uid="uid://1x7gdafoqigc" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_1.tscn" id="7_pu3gv"]
+[ext_resource type="PackedScene" uid="uid://bw28dqpqmtvfi" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_1_edge.tscn" id="8_4vr33"]
+[ext_resource type="PackedScene" uid="uid://c5li4ht5nkylh" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_1_ridge.tscn" id="9_2g5xe"]
+[ext_resource type="PackedScene" uid="uid://buk6kjhft6sys" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/wall_roof_a_tri.tscn" id="10_5ayhq"]
+[ext_resource type="PackedScene" uid="uid://by245mw32ghkk" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_2.tscn" id="11_i6asv"]
+[ext_resource type="PackedScene" uid="uid://cfmdvkmeffqcw" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_2_edge.tscn" id="12_5ohir"]
+[ext_resource type="PackedScene" uid="uid://dkwqg5n6mvvxw" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_2_ridge.tscn" id="13_ph62m"]
+[ext_resource type="PackedScene" uid="uid://bexpepyf23ljt" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_ridge.tscn" id="14_edvt5"]
+
+[node name="House_1" type="Node3D"]
+
+[node name="Wall_Corner_Ext2" parent="." instance=ExtResource("1_cwu5i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, 3)
+
+[node name="Wall_Corner_Ext3" parent="." instance=ExtResource("1_cwu5i")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 3)
+
+[node name="Wall_Corner_Ext4" parent="." instance=ExtResource("1_cwu5i")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2, 2, -3)
+
+[node name="Wall_Corner_Ext5" parent="." instance=ExtResource("1_cwu5i")]
+transform = Transform3D(8.9407e-08, 0, -1, 0, 1, 0, 1, 0, 8.9407e-08, -2, 2, -3)
+
+[node name="Wall_Wall2" parent="." instance=ExtResource("2_t0pm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 3)
+
+[node name="Wall_Wall9" parent="." instance=ExtResource("2_t0pm1")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 1, 2, -3)
+
+[node name="Wall_Wall3" parent="." instance=ExtResource("2_t0pm1")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 2)
+
+[node name="Wall_Wall4" parent="." instance=ExtResource("2_t0pm1")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 0)
+
+[node name="Wall_Wall6" parent="." instance=ExtResource("2_t0pm1")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -2)
+
+[node name="Wall_Wall7" parent="." instance=ExtResource("2_t0pm1")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 0)
+
+[node name="Wall_Window_10" parent="." instance=ExtResource("3_0wqbw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1, 2, -3)
+
+[node name="Wall_Window_11" parent="." instance=ExtResource("3_0wqbw")]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -1, 2, 3)
+
+[node name="Wall_Window_12" parent="." instance=ExtResource("3_0wqbw")]
+transform = Transform3D(2.38419e-07, 0, -1, 0, 1, 0, 1, 0, 2.38419e-07, -2, 2, 2)
+
+[node name="Wall_Door_6" parent="." instance=ExtResource("4_3y013")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -2)
+
+[node name="Roof_A" parent="." instance=ExtResource("5_ocqin")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -2)
+
+[node name="Roof_A_Edge" parent="." instance=ExtResource("6_wlvp5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -2)
+
+[node name="Roof_A2" parent="." instance=ExtResource("5_ocqin")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 0)
+
+[node name="Roof_A_Edge2" parent="." instance=ExtResource("6_wlvp5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 0)
+
+[node name="Roof_A3" parent="." instance=ExtResource("5_ocqin")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 2)
+
+[node name="Roof_A_Edge3" parent="." instance=ExtResource("6_wlvp5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 2)
+
+[node name="Roof_A_Side_5" parent="." instance=ExtResource("7_pu3gv")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 3)
+
+[node name="Roof_A_Side_1_Edge2" parent="." instance=ExtResource("8_4vr33")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 3)
+
+[node name="Roof_A_Side_1_Ridge2" parent="." instance=ExtResource("9_2g5xe")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 3)
+
+[node name="Roof_A_Side_6" parent="." instance=ExtResource("7_pu3gv")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -3)
+
+[node name="Roof_A_Side_1_Edge3" parent="." instance=ExtResource("8_4vr33")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -3)
+
+[node name="Roof_A_Side_1_Ridge3" parent="." instance=ExtResource("9_2g5xe")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -3)
+
+[node name="Wall_Roof_A_Tri2" parent="." instance=ExtResource("10_5ayhq")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1, 6, -3)
+
+[node name="Wall_Roof_A_Tri3" parent="." instance=ExtResource("10_5ayhq")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, -1.74846e-07, 0, -1, 1, 6, -3)
+
+[node name="Wall_Roof_A_Tri4" parent="." instance=ExtResource("10_5ayhq")]
+transform = Transform3D(1, 0, 2.13163e-14, 0, 1, 0, -2.13163e-14, 0, 1, 1, 6, 3)
+
+[node name="Wall_Roof_A_Tri5" parent="." instance=ExtResource("10_5ayhq")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, 1.50996e-07, 0, 1, -1, 6, 3)
+
+[node name="Roof_A_Side_3" parent="." instance=ExtResource("11_i6asv")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -3)
+
+[node name="Roof_A_Side_2_Edge2" parent="." instance=ExtResource("12_5ohir")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -3)
+
+[node name="Roof_A_Side_2_Ridge2" parent="." instance=ExtResource("13_ph62m")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -3)
+
+[node name="Roof_A_Side_4" parent="." instance=ExtResource("11_i6asv")]
+transform = Transform3D(1.19209e-07, 0, -1, 0, 1, 0, 1, 0, 1.19209e-07, -2, 2, 3)
+
+[node name="Roof_A_Side_2_Edge3" parent="." instance=ExtResource("12_5ohir")]
+transform = Transform3D(1.19209e-07, 0, -1, 0, 1, 0, 1, 0, 1.19209e-07, -2, 2, 3)
+
+[node name="Roof_A_Side_2_Ridge3" parent="." instance=ExtResource("13_ph62m")]
+transform = Transform3D(1.19209e-07, 0, -1, 0, 1, 0, 1, 0, 1.19209e-07, -2, 2, 3)
+
+[node name="Roof_A_Ridge2" parent="." instance=ExtResource("14_edvt5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, -2)
+
+[node name="Roof_A_Ridge6" parent="." instance=ExtResource("14_edvt5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 0)
+
+[node name="Roof_A_Ridge7" parent="." instance=ExtResource("14_edvt5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 2, 2)
+
+[node name="Roof_A4" parent="." instance=ExtResource("5_ocqin")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -2)
+
+[node name="Roof_A_Edge4" parent="." instance=ExtResource("6_wlvp5")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -2)
+
+[node name="Roof_A_Ridge3" parent="." instance=ExtResource("14_edvt5")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, -2)
+
+[node name="Roof_A5" parent="." instance=ExtResource("5_ocqin")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 0)
+
+[node name="Roof_A_Edge5" parent="." instance=ExtResource("6_wlvp5")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 0)
+
+[node name="Roof_A_Ridge4" parent="." instance=ExtResource("14_edvt5")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 0)
+
+[node name="Roof_A6" parent="." instance=ExtResource("5_ocqin")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 2)
+
+[node name="Roof_A_Edge6" parent="." instance=ExtResource("6_wlvp5")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 2)
+
+[node name="Roof_A_Ridge5" parent="." instance=ExtResource("14_edvt5")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2, 2, 2)

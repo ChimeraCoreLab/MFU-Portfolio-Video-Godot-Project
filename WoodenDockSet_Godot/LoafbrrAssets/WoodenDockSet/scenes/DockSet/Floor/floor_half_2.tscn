@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5m4087oh7slr"]
+
+[ext_resource type="Material" uid="uid://bsk8ohevyamq2" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Floor.material" id="1_ic7w0"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_my6lf"]
+_surfaces = [{
+"aabb": AABB(-1, -0.05, -2, 2.00001, 0.10001, 4),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray(4, 0, 1, 0, 5, 0, 4, 0, 0, 0, 1, 0, 2, 0, 7, 0, 3, 0, 2, 0, 6, 0, 7, 0),
+"name": "Floor_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray(254, 255, 248, 255, 0, 0, 0, 0, 254, 255, 248, 255, 255, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 255, 255, 0, 0, 0, 0, 248, 255, 0, 0, 0, 0, 0, 0, 248, 255, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cvdhq"]
+resource_name = "WoodenDockSet_Floor_Half_2"
+_surfaces = [{
+"aabb": AABB(-1, -0.05, -2, 2.00001, 0.10001, 4),
+"attribute_data": PackedByteArray(255, 255, 0, 0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 0, 0, 255, 127, 0, 0, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 0, 0),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray(4, 0, 1, 0, 5, 0, 4, 0, 0, 0, 1, 0, 2, 0, 7, 0, 3, 0, 2, 0, 6, 0, 7, 0),
+"material": ExtResource("1_ic7w0"),
+"name": "Floor_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray(254, 255, 248, 255, 0, 0, 255, 191, 254, 255, 248, 255, 255, 255, 255, 191, 254, 255, 0, 0, 0, 0, 255, 191, 254, 255, 0, 0, 255, 255, 255, 191, 0, 0, 248, 255, 0, 0, 255, 191, 0, 0, 248, 255, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 0, 0, 255, 127, 0, 0, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 0, 0, 255, 127, 0, 0, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_my6lf")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_xwihu"]
+data = PackedVector3Array(-1, 0.05, -2, 1, 0.05, 2, -1, 0.05, 2, -1, 0.05, -2, 1, 0.05, -2, 1, 0.05, 2, 1, -0.05, -2, -1, -0.05, 2, 1, -0.05, 2, 1, -0.05, -2, -1, -0.05, -2, -1, -0.05, 2)
+
+[node name="Floor_Half_2" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_cvdhq")
+skeleton = NodePath("")
+
+[node name="Floor_Half_2" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor_Half_2"]
+shape = SubResource("ConcavePolygonShape3D_xwihu")

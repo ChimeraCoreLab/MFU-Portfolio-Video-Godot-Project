@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="MFU_Digital_Architect_Intro"
+run/main_scene="uid://dv05x7dja0qgq"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1980
+window/size/viewport_height=1080
+
+[editor]
+
+movie_writer/movie_file="/storage/emulated/0/MFU-Portfolio-Video-Godot-Project/f.avi"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

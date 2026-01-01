@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://dldy0r5lfklbd"]
+
+[ext_resource type="Material" uid="uid://dg6n2t7pmrilt" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/WoodBeams.material" id="1_76t5o"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dvdgp"]
+_surfaces = [{
+"aabb": AABB(-0.83358, 0, 4.17233e-07, 1.66717, 2, 1.00596e-05),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Beams_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 132, 1, 0, 0, 254, 255, 255, 255, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 132, 1, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xbtn8"]
+resource_name = "WoodenDockSet_Support_Plane"
+_surfaces = [{
+"aabb": AABB(-0.83358, 0, 4.17233e-07, 1.66717, 2, 1.00596e-05),
+"attribute_data": PackedByteArray(236, 191, 255, 127, 236, 191, 255, 63, 18, 64, 255, 127, 18, 64, 255, 63),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": ExtResource("1_76t5o"),
+"name": "Beams_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 132, 1, 255, 127, 254, 255, 255, 255, 8, 3, 255, 127, 0, 0, 0, 0, 0, 0, 255, 127, 0, 0, 255, 255, 132, 1, 255, 127, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_dvdgp")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_t31cx"]
+data = PackedVector3Array(0.833581, 0, 4.76837e-07, -0.83358, 2, 4.76837e-07, 0.833581, 2, 5.36442e-07, 0.833581, 0, 4.76837e-07, -0.83358, 0, 4.17233e-07, -0.83358, 2, 4.76837e-07)
+
+[node name="Support_Plane" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_xbtn8")
+skeleton = NodePath("")
+
+[node name="Support_Plane" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Support_Plane"]
+shape = SubResource("ConcavePolygonShape3D_t31cx")

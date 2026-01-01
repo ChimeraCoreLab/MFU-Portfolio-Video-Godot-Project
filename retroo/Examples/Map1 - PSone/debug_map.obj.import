@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpe7kh37jkdw0"
+path="res://.godot/imported/debug_map.obj-6d43a07b4719684dcf47da26734fe58f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/debug_map.obj-6d43a07b4719684dcf47da26734fe58f.mesh"]
+
+source_file="res://retroo/Examples/Map1 - PSone/debug_map.obj"
+dest_files=["res://.godot/imported/debug_map.obj-6d43a07b4719684dcf47da26734fe58f.mesh", "res://.godot/imported/debug_map.obj-6d43a07b4719684dcf47da26734fe58f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

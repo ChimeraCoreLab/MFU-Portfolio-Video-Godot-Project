@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://cup1tw2yjxm7g"]
+
+[ext_resource type="Material" uid="uid://bsk8ohevyamq2" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Floor.material" id="1_qlbmp"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jtmjr"]
+_surfaces = [{
+"aabb": AABB(-2, -0.05, -8.74228e-08, 4.00001, 0.10001, 1e-05),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 1, 0, 3, 0, 2, 0),
+"name": "Floor_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 248, 255, 0, 0, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 248, 255, 121, 4, 0, 0, 0, 0, 0, 0, 121, 4, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pevmt"]
+resource_name = "WoodenDockSet_Floor_Side_Boards"
+_surfaces = [{
+"aabb": AABB(-2, -0.05, -8.74228e-08, 4.00001, 0.10001, 1e-05),
+"attribute_data": PackedByteArray(223, 252, 255, 255, 255, 255, 255, 255, 223, 252, 255, 127, 255, 255, 255, 127),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 1, 0, 3, 0, 2, 0),
+"material": ExtResource("1_qlbmp"),
+"name": "Floor_Mat",
+"primitive": 3,
+"uv_scale": Vector4(2.05, 2, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 248, 255, 0, 0, 255, 63, 254, 255, 0, 0, 0, 0, 255, 63, 0, 0, 248, 255, 121, 4, 255, 63, 0, 0, 0, 0, 121, 4, 255, 63, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jtmjr")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_4pp6f"]
+data = PackedVector3Array(2, -0.05, -8.74228e-08, -2, 0.05, 8.74228e-08, 2, 0.05, -8.74228e-08, 2, -0.05, -8.74228e-08, -2, -0.05, 8.74228e-08, -2, 0.05, 8.74228e-08)
+
+[node name="Floor_Side_Boards" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_pevmt")
+skeleton = NodePath("")
+
+[node name="Floor_Side_Boards" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor_Side_Boards"]
+shape = SubResource("ConcavePolygonShape3D_4pp6f")

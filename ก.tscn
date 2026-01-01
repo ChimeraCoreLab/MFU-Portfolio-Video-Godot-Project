@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://6puu2k4wcesk"]
+
+[ext_resource type="PackedScene" uid="uid://dk0uhjo4uhp8a" path="res://male_casual/male_casual.fbx" id="1_5x3wk"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="male_casual" parent="." instance=ExtResource("1_5x3wk")]

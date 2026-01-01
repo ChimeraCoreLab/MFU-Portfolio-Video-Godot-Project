@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b2lv237e3r7ky"
+path.etc2="res://.godot/imported/CRTTV_CRTTV_Normal.png-930a2f2e69c7b1fdc45fc3c96fadb41e.etc2.ctex"
+metadata={
+"imported_formats": ["etc2_astc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "65306a97c3a407fa66509f27ce84d177"
+}
+
+[deps]
+
+source_file="res://CRTVHS_GodotFiles/CRTVHS/GLTF/CRTTV_CRTTV_Normal.png"
+dest_files=["res://.godot/imported/CRTTV_CRTTV_Normal.png-930a2f2e69c7b1fdc45fc3c96fadb41e.etc2.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://CRTVHS_GodotFiles/CRTVHS/GLTF/CRTTV_CRTTV_Normal.png"
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://8uhp3xh616ww"]
+
+[ext_resource type="VideoStream" uid="uid://bcwpbx75foyf3" path="res://wha.ogv" id="1_bwirh"]
+[ext_resource type="Script" uid="uid://bhdg3rr67b6fl" path="res://s.gd" id="1_ov763"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ov763"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_l2r48"]
+sky_material = SubResource("ProceduralSkyMaterial_ov763")
+
+[sub_resource type="Environment" id="Environment_7ltdi"]
+background_mode = 1
+sky = SubResource("Sky_l2r48")
+tonemap_mode = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ov763"]
+size = Vector2(1, 1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ov763"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l2r48"]
+resource_local_to_scene = true
+albedo_texture = SubResource("ViewportTexture_ov763")
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_ov763")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7ltdi")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.24999999, 0.48606458, -0.6118735, 0.6239808, -0.11722329, 0.6618994, 0.7403701, -1.6700131, 1.3066463, 0)
+shadow_enabled = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.578, 0, 0, 0, 0.034794893, -0.9993945, 0, 0.9993945, 0.034794893, 0.10650182, 1.0737725, -0.28305936)
+mesh = SubResource("PlaneMesh_ov763")
+surface_material_override/0 = SubResource("StandardMaterial3D_l2r48")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.10700691, 1.1332101, 0.74290204)
+current = true
+
+[node name="SubViewport" type="SubViewport" parent="."]
+size = Vector2i(1136, 720)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="SubViewport"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="SubViewport/SubViewportContainer"]
+layout_mode = 2
+stream = ExtResource("1_bwirh")
+autoplay = true

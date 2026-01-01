@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://c1nt62wvoa3ns"]
+
+[ext_resource type="Material" uid="uid://cbp7u10oouhcm" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Ext.material" id="1_ama3j"]
+[ext_resource type="Material" uid="uid://c8ia0fmoiichv" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Int.material" id="2_jro42"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ago0j"]
+_surfaces = [{
+"aabb": AABB(-0.166667, 0, 0.072012, 0.333343, 4, 9.99868e-06),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 2, 0, 0, 0, 1, 0, 3, 0),
+"name": "Wall_Exterior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(253, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0)
+}, {
+"aabb": AABB(-0.166667, 0, -0.072012, 0.333343, 4, 9.99868e-06),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Wall_Interior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(253, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vf38h"]
+resource_name = "WoodenDockSet_Wall_Pillar_Plane"
+_surfaces = [{
+"aabb": AABB(-0.166667, 0, 0.072012, 0.333343, 4, 9.99868e-06),
+"attribute_data": PackedByteArray(254, 255, 255, 255, 115, 0, 255, 255, 255, 255, 255, 127, 115, 0, 255, 127),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 2, 0, 0, 0, 1, 0, 3, 0),
+"material": ExtResource("1_ama3j"),
+"name": "Wall_Exterior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0.125444, 2, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(253, 255, 0, 0, 0, 0, 255, 127, 0, 0, 0, 0, 0, 0, 255, 127, 253, 255, 255, 255, 0, 0, 255, 127, 0, 0, 255, 255, 0, 0, 255, 127, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255)
+}, {
+"aabb": AABB(-0.166667, 0, -0.072012, 0.333343, 4, 9.99868e-06),
+"attribute_data": PackedByteArray(254, 255, 255, 255, 115, 0, 255, 255, 255, 255, 255, 127, 115, 0, 255, 127),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": ExtResource("2_jro42"),
+"name": "Wall_Interior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0.125444, 2, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(253, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 254, 255, 255, 127, 254, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ago0j")
+
+[node name="Wall_Pillar_Plane" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_vf38h")
+skeleton = NodePath("")

@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://cer215p6x6f7s"]
+
+[ext_resource type="Material" uid="uid://dopxwoichgp3s" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Roof.material" id="1_beq05"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ulq1r"]
+_surfaces = [{
+"aabb": AABB(-1, 6.06688, -2, 2.00001, 0.124778, 0.124789),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(2, 0, 1, 0, 3, 0, 2, 0, 0, 0, 1, 0),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 249, 255, 0, 0, 0, 0, 0, 0, 249, 255, 0, 0, 254, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_a2xx1"]
+resource_name = "WoodenDockSet_Roof_B_Ridge"
+_surfaces = [{
+"aabb": AABB(-1, 6.06688, -2, 2.00001, 0.124778, 0.124789),
+"attribute_data": PackedByteArray(255, 255, 134, 42, 6, 0, 134, 42, 255, 255, 140, 27, 6, 0, 140, 27),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(2, 0, 1, 0, 3, 0, 2, 0, 0, 0, 1, 0),
+"material": ExtResource("1_beq05"),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 249, 255, 255, 159, 0, 0, 0, 0, 249, 255, 255, 159, 254, 255, 255, 255, 0, 0, 255, 159, 0, 0, 255, 255, 0, 0, 255, 159, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ulq1r")
+
+[node name="Roof_B_Ridge" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_a2xx1")
+skeleton = NodePath("")

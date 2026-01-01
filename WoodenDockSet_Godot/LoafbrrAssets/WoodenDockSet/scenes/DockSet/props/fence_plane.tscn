@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://clwtmt4tvm1ch"]
+
+[ext_resource type="Material" uid="uid://dg6n2t7pmrilt" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/WoodBeams.material" id="1_ghr25"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5xnon"]
+_surfaces = [{
+"aabb": AABB(-2, 0, -4.29153e-08, 4.00001, 0.96, 1e-05),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Beams_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 0, 0, 0, 0, 254, 255, 255, 255, 187, 0, 0, 0, 0, 0, 0, 0, 191, 2, 0, 0, 0, 0, 255, 255, 122, 3, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ctu4e"]
+resource_name = "WoodenDockSet_Fence_Plane"
+_surfaces = [{
+"aabb": AABB(-2, 0, -4.29153e-08, 4.00001, 0.96, 1e-05),
+"attribute_data": PackedByteArray(0, 0, 254, 255, 0, 0, 255, 127, 255, 255, 255, 255, 255, 255, 255, 127),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": ExtResource("1_ghr25"),
+"name": "Beams_mat",
+"primitive": 3,
+"uv_scale": Vector4(2, 0.5, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 0, 0, 0, 0, 254, 255, 255, 255, 187, 0, 0, 0, 0, 0, 0, 0, 191, 2, 0, 0, 0, 0, 255, 255, 122, 3, 0, 0, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_5xnon")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_xd6lc"]
+data = PackedVector3Array(2, 0, -4.29153e-08, -2, 0.96, 9.29832e-08, 2, 0.96, -1.43051e-08, 2, 0, -4.29153e-08, -2, 0, 6.4373e-08, -2, 0.96, 9.29832e-08)
+
+[node name="Fence_Plane" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_ctu4e")
+skeleton = NodePath("")
+
+[node name="Fence_Plane" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Fence_Plane"]
+shape = SubResource("ConcavePolygonShape3D_xd6lc")

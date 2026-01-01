@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://ck42cko44h4dv"]
+
+[ext_resource type="Material" uid="uid://cbp7u10oouhcm" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Ext.material" id="1_owy23"]
+[ext_resource type="Material" uid="uid://c8ia0fmoiichv" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Int.material" id="2_skj5v"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pjj31"]
+_surfaces = [{
+"aabb": AABB(-1, 0, 0.0699989, 2, 2, 1.22488e-05),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(1, 0, 2, 0, 3, 0, 1, 0, 0, 0, 2, 0),
+"name": "Wall_Exterior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 6, 47, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 6, 47, 0, 0, 255, 255, 255, 255, 0, 0, 0, 0)
+}, {
+"aabb": AABB(-1, 0, -0.0700011, 2, 2, 1.22488e-05),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 1, 0, 3, 0, 2, 0),
+"name": "Wall_Interior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 6, 47, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 6, 47, 0, 0, 255, 255, 255, 255, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ey07m"]
+resource_name = "WoodenDockSet_Wall_Roof_B"
+_surfaces = [{
+"aabb": AABB(-1, 0, 0.0699989, 2, 2, 1.22488e-05),
+"attribute_data": PackedByteArray(66, 17, 248, 255, 188, 238, 248, 255, 66, 17, 231, 143, 188, 238, 231, 143),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(1, 0, 2, 0, 3, 0, 1, 0, 0, 0, 2, 0),
+"material": ExtResource("1_owy23"),
+"name": "Wall_Exterior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 6, 47, 255, 127, 255, 255, 0, 0, 0, 0, 255, 127, 0, 0, 255, 255, 6, 47, 255, 127, 255, 255, 255, 255, 0, 0, 255, 127, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255)
+}, {
+"aabb": AABB(-1, 0, -0.0700011, 2, 2, 1.22488e-05),
+"attribute_data": PackedByteArray(66, 17, 248, 255, 188, 238, 248, 255, 66, 17, 231, 143, 188, 238, 231, 143),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 1, 0, 3, 0, 2, 0),
+"material": ExtResource("2_skj5v"),
+"name": "Wall_Interior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 6, 47, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 6, 47, 0, 0, 255, 255, 255, 255, 0, 0, 0, 0, 254, 255, 255, 127, 254, 255, 255, 127, 254, 255, 255, 127, 254, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_pjj31")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_grhyh"]
+data = PackedVector3Array(1, 0, 0.0699989, -1, 2, 0.0700011, 1, 2, 0.0699989, 1, 0, 0.0699989, -1, 0, 0.0700011, -1, 2, 0.0700011, 1, 0, -0.0700011, -1, 2, -0.0699989, -1, 0, -0.0699989, 1, 0, -0.0700011, 1, 2, -0.0700011, -1, 2, -0.0699989)
+
+[node name="Wall_Roof_B" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_ey07m")
+skeleton = NodePath("")
+
+[node name="Wall_Roof_B" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_Roof_B"]
+shape = SubResource("ConcavePolygonShape3D_grhyh")

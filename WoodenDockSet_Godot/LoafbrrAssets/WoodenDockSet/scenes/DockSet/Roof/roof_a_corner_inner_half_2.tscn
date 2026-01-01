@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://bshrncpar5uuj"]
+
+[ext_resource type="Material" uid="uid://dopxwoichgp3s" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Roof.material" id="1_66qmq"]
+[ext_resource type="Material" uid="uid://dg8di4m23kjxu" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Ceiling.material" id="2_5np6c"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mtnrc"]
+_surfaces = [{
+"aabb": AABB(-1.82378e-14, 4.15606, -2, 2, 1, 2.00001),
+"format": 34896613377,
+"index_count": 9,
+"index_data": PackedByteArray(0, 0, 2, 0, 1, 0, 3, 0, 6, 0, 4, 0, 3, 0, 5, 0, 6, 0),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 7,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 254, 255, 0, 0, 255, 255, 255, 255, 254, 255, 0, 0, 255, 255, 255, 255, 0, 0, 0, 0, 0, 0, 84, 0, 254, 255, 0, 0, 48, 11, 48, 11, 254, 255, 0, 0, 77, 254, 161, 254, 177, 1, 0, 0, 77, 254, 161, 254, 28, 16, 0, 0)
+}, {
+"aabb": AABB(0, 3.99843, -2, 2, 1.00157, 2.00001),
+"format": 34896613377,
+"index_count": 9,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 3, 0, 6, 0, 4, 0, 3, 0, 5, 0, 6, 0),
+"name": "Ceilng",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 7,
+"vertex_data": PackedByteArray(0, 0, 102, 0, 254, 255, 0, 0, 255, 255, 255, 255, 254, 255, 0, 0, 255, 255, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 255, 255, 152, 255, 0, 0, 0, 0, 255, 31, 243, 31, 254, 255, 0, 0, 255, 255, 152, 255, 204, 20, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2yw5o"]
+resource_name = "WoodenDockSet_Roof_A_Corner_Inner_Half_2"
+_surfaces = [{
+"aabb": AABB(-1.82378e-14, 4.15606, -2, 2, 1, 2.00001),
+"attribute_data": PackedByteArray(2, 128, 255, 255, 2, 128, 126, 149, 25, 210, 126, 149, 224, 198, 72, 145, 95, 192, 112, 142, 0, 0, 72, 145, 57, 3, 26, 141),
+"format": 34896613399,
+"index_count": 9,
+"index_data": PackedByteArray(0, 0, 2, 0, 1, 0, 3, 0, 6, 0, 4, 0, 3, 0, 5, 0, 6, 0),
+"material": ExtResource("1_66qmq"),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(2.3204, 1.99967, 0, 0),
+"vertex_count": 7,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 254, 255, 9, 31, 255, 255, 255, 255, 254, 255, 9, 31, 255, 255, 255, 255, 0, 0, 9, 31, 0, 0, 84, 0, 254, 255, 160, 222, 48, 11, 48, 11, 254, 255, 159, 222, 77, 254, 161, 254, 177, 1, 186, 222, 77, 254, 161, 254, 28, 16, 185, 222, 199, 225, 228, 48, 199, 225, 228, 48, 199, 225, 228, 48, 242, 136, 175, 192, 243, 136, 175, 192, 211, 136, 184, 192, 211, 136, 184, 192)
+}, {
+"aabb": AABB(0, 3.99843, -2, 2, 1.00157, 2.00001),
+"attribute_data": PackedByteArray(2, 128, 255, 255, 2, 128, 126, 149, 188, 232, 126, 149, 255, 255, 34, 179, 217, 104, 30, 179, 156, 247, 105, 191, 215, 112, 100, 191),
+"format": 34896613399,
+"index_count": 9,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 3, 0, 6, 0, 4, 0, 3, 0, 5, 0, 6, 0),
+"material": ExtResource("2_5np6c"),
+"name": "Ceilng",
+"primitive": 3,
+"uv_scale": Vector4(1.81895, 1.99967, 0, 0),
+"vertex_count": 7,
+"vertex_data": PackedByteArray(0, 0, 102, 0, 254, 255, 104, 203, 255, 255, 255, 255, 254, 255, 104, 203, 255, 255, 255, 255, 0, 0, 104, 203, 0, 0, 0, 0, 254, 255, 176, 247, 255, 255, 152, 255, 0, 0, 87, 248, 255, 31, 243, 31, 254, 255, 165, 247, 255, 255, 152, 255, 204, 20, 82, 248, 158, 92, 193, 70, 158, 92, 193, 70, 158, 92, 193, 70, 28, 44, 74, 225, 123, 44, 199, 225, 22, 44, 67, 225, 120, 44, 196, 225)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mtnrc")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_u8ewc"]
+data = PackedVector3Array(0, 4.15606, 0, 2, 5.15606, -2, 2, 5.15606, 0, 2, 5, 0, 2, 5, -2, 0, 4, 0)
+
+[node name="Roof_A_Corner_Inner_Half_2" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_2yw5o")
+skeleton = NodePath("")
+
+[node name="Roof_A_Corner_Inner_Half_2" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roof_A_Corner_Inner_Half_2"]
+shape = SubResource("ConcavePolygonShape3D_u8ewc")

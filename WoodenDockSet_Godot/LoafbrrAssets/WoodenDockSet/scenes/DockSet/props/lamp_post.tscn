@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4f7bj4rfbe8j"]
+
+[ext_resource type="PackedScene" uid="uid://h41yy1hjdsde" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/lantern_body.tscn" id="1_5sqfi"]
+[ext_resource type="PackedScene" uid="uid://denpjx6f4b7eg" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/post.tscn" id="2_fxpii"]
+
+[node name="LampPost" type="Node3D"]
+
+[node name="Lantern_Body2" parent="." instance=ExtResource("1_5sqfi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00683403, 3.21043, 0.000717282)
+
+[node name="Post5" parent="." instance=ExtResource("2_fxpii")]

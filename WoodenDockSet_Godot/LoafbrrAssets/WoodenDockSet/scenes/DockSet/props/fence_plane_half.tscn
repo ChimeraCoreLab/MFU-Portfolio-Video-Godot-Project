@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://cdhjb40xoq50i"]
+
+[ext_resource type="Material" uid="uid://dg6n2t7pmrilt" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/WoodBeams.material" id="1_ww3te"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_iggd3"]
+_surfaces = [{
+"aabb": AABB(-2, 0, 1.07288e-08, 2, 0.96, 1.00536e-05),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(3, 0, 1, 0, 2, 0, 3, 0, 0, 0, 1, 0),
+"name": "Beams_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 93, 1, 0, 0, 0, 0, 255, 255, 24, 2, 0, 0, 255, 255, 255, 255, 186, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_c6u5o"]
+resource_name = "WoodenDockSet_Fence_Plane_Half"
+_surfaces = [{
+"aabb": AABB(-2, 0, 1.07288e-08, 2, 0.96, 1.00536e-05),
+"attribute_data": PackedByteArray(255, 255, 255, 63, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 63),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(3, 0, 1, 0, 2, 0, 3, 0, 0, 0, 1, 0),
+"material": ExtResource("1_ww3te"),
+"name": "Beams_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 93, 1, 0, 0, 0, 0, 255, 255, 24, 2, 0, 0, 255, 255, 255, 255, 186, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_iggd3")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_dxbew"]
+data = PackedVector3Array(-2.38419e-07, 0, 1.07288e-08, -2, 0.96, 9.29832e-08, -2.38419e-07, 0.96, 3.93391e-08, -2.38419e-07, 0, 1.07288e-08, -2, 0, 6.4373e-08, -2, 0.96, 9.29832e-08)
+
+[node name="Fence_Plane_Half" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_c6u5o")
+skeleton = NodePath("")
+
+[node name="Fence_Plane_Half" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Fence_Plane_Half"]
+shape = SubResource("ConcavePolygonShape3D_dxbew")

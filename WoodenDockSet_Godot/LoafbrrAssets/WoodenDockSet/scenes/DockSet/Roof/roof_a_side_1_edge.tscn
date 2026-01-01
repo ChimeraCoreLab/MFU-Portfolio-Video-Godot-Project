@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://bw28dqpqmtvfi"]
+
+[ext_resource type="Material" uid="uid://dopxwoichgp3s" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Roof.material" id="1_7k3de"]
+[ext_resource type="Material" uid="uid://dg8di4m23kjxu" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Ceiling.material" id="2_n7sa6"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vr3uo"]
+_surfaces = [{
+"aabb": AABB(-0.5, 3.6, 0, 0.50001, 0.556057, 0.80001),
+"format": 34896613377,
+"index_count": 18,
+"index_data": PackedByteArray(3, 0, 1, 0, 0, 0, 3, 0, 4, 0, 1, 0, 0, 0, 6, 0, 2, 0, 0, 0, 1, 0, 6, 0, 4, 0, 6, 0, 1, 0, 4, 0, 5, 0, 6, 0),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 7,
+"vertex_data": PackedByteArray(253, 255, 216, 71, 254, 255, 0, 0, 0, 0, 216, 71, 254, 255, 0, 0, 253, 255, 255, 255, 0, 0, 0, 0, 253, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 0, 0, 38, 184, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0)
+}, {
+"aabb": AABB(-0.5, 3.59935, 0, 0.50001, 0.400651, 0.80001),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 1, 0, 3, 0, 2, 0, 4, 0, 7, 0, 5, 0, 4, 0, 6, 0, 7, 0),
+"name": "Ceilng",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray(253, 255, 106, 0, 254, 255, 0, 0, 253, 255, 255, 255, 0, 0, 0, 0, 0, 0, 106, 0, 254, 255, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 255, 63, 121, 255, 0, 0, 0, 0, 254, 191, 121, 255, 0, 0, 0, 0, 255, 63, 0, 0, 227, 255, 0, 0, 254, 191, 0, 0, 227, 255, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fth4a"]
+resource_name = "WoodenDockSet_Roof_A_Side_1_Edge"
+_surfaces = [{
+"aabb": AABB(-0.5, 3.6, 0, 0.50001, 0.556057, 0.80001),
+"attribute_data": PackedByteArray(8, 128, 100, 248, 8, 128, 100, 248, 116, 30, 100, 248, 116, 30, 100, 248, 116, 30, 100, 248, 8, 128, 206, 204, 8, 128, 255, 255, 0, 0, 100, 248, 116, 30, 255, 255, 0, 0, 206, 204, 116, 30, 206, 204, 116, 30, 206, 204),
+"format": 34896613399,
+"index_count": 18,
+"index_data": PackedByteArray(6, 0, 3, 0, 0, 0, 6, 0, 8, 0, 3, 0, 1, 0, 11, 0, 5, 0, 1, 0, 4, 0, 11, 0, 7, 0, 10, 0, 2, 0, 7, 0, 9, 0, 10, 0),
+"material": ExtResource("1_7k3de"),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0.655806, 1.95464, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray(253, 255, 216, 71, 254, 255, 255, 127, 253, 255, 216, 71, 254, 255, 27, 173, 0, 0, 216, 71, 254, 255, 84, 213, 0, 0, 216, 71, 254, 255, 255, 127, 0, 0, 216, 71, 254, 255, 27, 173, 253, 255, 255, 255, 0, 0, 27, 173, 253, 255, 0, 0, 254, 255, 255, 127, 0, 0, 0, 0, 254, 255, 84, 213, 0, 0, 0, 0, 254, 255, 255, 127, 0, 0, 38, 184, 0, 0, 84, 213, 0, 0, 255, 255, 0, 0, 84, 213, 0, 0, 255, 255, 0, 0, 27, 173, 255, 127, 255, 255, 255, 255, 255, 127, 84, 213, 84, 213, 255, 127, 255, 255, 255, 255, 255, 127, 255, 255, 255, 127, 255, 127, 255, 255, 84, 213, 84, 213, 255, 127, 255, 255, 84, 213, 84, 213, 84, 213, 84, 213, 255, 255, 255, 127)
+}, {
+"aabb": AABB(-0.5, 3.59935, 0, 0.50001, 0.400651, 0.80001),
+"attribute_data": PackedByteArray(6, 128, 255, 255, 6, 128, 168, 209, 58, 47, 255, 255, 58, 47, 168, 209, 199, 128, 128, 225, 199, 128, 94, 239, 0, 0, 128, 225, 0, 0, 93, 239),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray(1, 0, 2, 0, 0, 0, 1, 0, 3, 0, 2, 0, 4, 0, 7, 0, 5, 0, 4, 0, 6, 0, 7, 0),
+"material": ExtResource("2_n7sa6"),
+"name": "Ceilng",
+"primitive": 3,
+"uv_scale": Vector4(0.792043, 1.83848, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray(253, 255, 106, 0, 254, 255, 27, 45, 253, 255, 255, 255, 0, 0, 27, 45, 0, 0, 106, 0, 254, 255, 27, 45, 0, 0, 255, 255, 0, 0, 27, 45, 255, 63, 121, 255, 0, 0, 9, 31, 254, 191, 121, 255, 0, 0, 9, 31, 255, 63, 0, 0, 227, 255, 9, 31, 254, 191, 0, 0, 227, 255, 9, 31, 0, 0, 255, 127, 0, 0, 255, 127, 0, 0, 255, 127, 0, 0, 255, 127, 27, 79, 27, 79, 27, 79, 27, 79, 27, 79, 27, 79, 27, 79, 27, 79)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_vr3uo")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_d66sm"]
+data = PackedVector3Array(5.96046e-08, 3.6, 0.8, -0.5, 3.75606, 0.8, 5.96046e-08, 3.75606, 0.8, 5.96046e-08, 3.6, 0.8, -0.5, 3.6, 0.8, -0.5, 3.75606, 0.8, 5.96046e-08, 3.75606, 0.8, -0.5, 4.15606, 0, 0, 4.15606, 0, 5.96046e-08, 3.75606, 0.8, -0.5, 3.75606, 0.8, -0.5, 4.15606, 0, 0, 4, 0, -0.5, 3.6, 0.8, 5.96046e-08, 3.6, 0.8, 0, 4, 0, -0.5, 4, 0, -0.5, 3.6, 0.8, -0.5, 3.6, 0.8, -0.5, 4.15606, 0, -0.5, 3.75606, 0.8, -0.5, 3.6, 0.8, -0.5, 4, 0, -0.5, 4.15606, 0)
+
+[node name="Roof_A_Side_1_Edge" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_fth4a")
+skeleton = NodePath("")
+
+[node name="Roof_A_Side_1_Edge" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roof_A_Side_1_Edge"]
+shape = SubResource("ConcavePolygonShape3D_d66sm")

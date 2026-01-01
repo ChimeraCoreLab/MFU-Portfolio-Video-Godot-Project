@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://chl8asunrykqi"]
+
+[ext_resource type="Material" uid="uid://cbp7u10oouhcm" path="res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Ext.material" id="1_b5cox"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_odx6g"]
+_surfaces = [{
+"aabb": AABB(-0.0700004, 7.82311e-08, 7.07805e-07, 0.0700104, 4, 0.0700097),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0, 2, 0, 5, 0, 3, 0, 2, 0, 4, 0, 5, 0),
+"name": "Wall_Exterior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 6,
+"vertex_data": PackedByteArray(245, 255, 0, 0, 245, 255, 0, 0, 245, 255, 255, 255, 245, 255, 0, 0, 0, 0, 0, 0, 245, 255, 0, 0, 0, 0, 255, 255, 245, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_v1fy0"]
+resource_name = "WoodenDockSet_Wall_Corner_Ext"
+_surfaces = [{
+"aabb": AABB(-0.0700004, 7.82311e-08, 7.07805e-07, 0.0700104, 4, 0.0700097),
+"attribute_data": PackedByteArray(255, 255, 254, 255, 255, 255, 0, 128, 255, 255, 255, 255, 3, 1, 254, 255, 255, 255, 0, 128, 3, 1, 0, 128, 255, 0, 255, 255, 255, 0, 0, 128),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray(0, 0, 5, 0, 1, 0, 0, 0, 3, 0, 5, 0, 2, 0, 7, 0, 4, 0, 2, 0, 6, 0, 7, 0),
+"material": ExtResource("1_b5cox"),
+"name": "Wall_Exterior_Mat",
+"primitive": 3,
+"uv_scale": Vector4(0.123506, 1.99996, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray(245, 255, 0, 0, 245, 255, 255, 127, 245, 255, 255, 255, 245, 255, 255, 127, 0, 0, 0, 0, 245, 255, 255, 191, 0, 0, 0, 0, 245, 255, 255, 127, 0, 0, 255, 255, 245, 255, 255, 191, 0, 0, 255, 255, 245, 255, 255, 127, 0, 0, 0, 0, 0, 0, 255, 191, 0, 0, 255, 255, 0, 0, 255, 191, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_odx6g")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_r5dum"]
+data = PackedVector3Array(0, 7.82311e-08, 0.0700004, -0.0700004, 4, 0.0700004, 0, 4, 0.0700004, 0, 7.82311e-08, 0.0700004, -0.0700004, 7.82311e-08, 0.0700004, -0.0700004, 4, 0.0700004, -0.0700004, 7.82311e-08, 0.0700004, -0.0700004, 4, 7.07805e-07, -0.0700004, 4, 0.0700004, -0.0700004, 7.82311e-08, 0.0700004, -0.0700004, 7.82311e-08, 7.07805e-07, -0.0700004, 4, 7.07805e-07)
+
+[node name="Wall_Corner_Ext" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_v1fy0")
+skeleton = NodePath("")
+
+[node name="Wall_Corner_Ext" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_Corner_Ext"]
+shape = SubResource("ConcavePolygonShape3D_r5dum")

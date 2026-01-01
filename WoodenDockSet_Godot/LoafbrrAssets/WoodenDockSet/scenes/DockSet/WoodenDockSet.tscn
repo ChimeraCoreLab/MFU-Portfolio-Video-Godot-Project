@@ -1,0 +1,568 @@
+[gd_scene load_steps=136 format=3 uid="uid://cgwtvcenxtbtg"]
+
+[ext_resource type="PackedScene" uid="uid://chl8asunrykqi" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_corner_ext.tscn" id="1_ilhn5"]
+[ext_resource type="PackedScene" uid="uid://cpd7xejpndtel" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_wall.tscn" id="2_kk4m2"]
+[ext_resource type="PackedScene" uid="uid://c1nt62wvoa3ns" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_pillar_plane.tscn" id="3_ay7ti"]
+[ext_resource type="PackedScene" uid="uid://crfylee7g4juk" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_beam_plane.tscn" id="4_aimoi"]
+[ext_resource type="PackedScene" uid="uid://gguc4ne2d4pk" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_door_2.tscn" id="5_3syu8"]
+[ext_resource type="PackedScene" uid="uid://cdvrjasxlchq5" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_door_3.tscn" id="6_tbmkx"]
+[ext_resource type="PackedScene" uid="uid://bj50b6i6rhyte" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_door_4.tscn" id="7_xiup7"]
+[ext_resource type="PackedScene" uid="uid://d08tt4n6ubyy7" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_window_1.tscn" id="8_d2g1q"]
+[ext_resource type="PackedScene" uid="uid://b70e6kbdtmh8c" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_window_2.tscn" id="9_a5n5q"]
+[ext_resource type="PackedScene" uid="uid://dlgwqc1fdy6o5" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_window_3.tscn" id="10_ua5xq"]
+[ext_resource type="PackedScene" uid="uid://d074qsht0csym" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_window_4.tscn" id="11_v4a50"]
+[ext_resource type="PackedScene" uid="uid://m22khaxdk648" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/walls_pillar_int.tscn" id="12_t6qjv"]
+[ext_resource type="PackedScene" uid="uid://x37tonnvmwnv" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/walls_pillar_ext.tscn" id="13_8mqvw"]
+[ext_resource type="PackedScene" uid="uid://byc34vo45axqv" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/walls_beams_ext.tscn" id="14_gmc5s"]
+[ext_resource type="PackedScene" uid="uid://cfhp24636bpnf" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/walls_beams_int.tscn" id="15_s7yne"]
+[ext_resource type="PackedScene" uid="uid://bmyqf4iakm361" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_corner_int.tscn" id="16_onqp6"]
+[ext_resource type="PackedScene" uid="uid://3km12b3aavah" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Walls/wall_door_1.tscn" id="17_2ba06"]
+[ext_resource type="PackedScene" uid="uid://bl626gqcbtx3g" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_side_2.tscn" id="18_cfbuv"]
+[ext_resource type="PackedScene" uid="uid://bshrncpar5uuj" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_corner_inner_half_2.tscn" id="19_xevqt"]
+[ext_resource type="PackedScene" uid="uid://r6mw12ofcfda" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_corner_inner_half_1.tscn" id="20_5psji"]
+[ext_resource type="PackedScene" uid="uid://bmxa6pwwr05wy" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_corner_outer.tscn" id="21_b21js"]
+[ext_resource type="PackedScene" uid="uid://by245mw32ghkk" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_2.tscn" id="22_n6txy"]
+[ext_resource type="PackedScene" uid="uid://1x7gdafoqigc" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_1.tscn" id="23_jf3or"]
+[ext_resource type="PackedScene" uid="uid://bw28dqpqmtvfi" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_1_edge.tscn" id="24_deaml"]
+[ext_resource type="PackedScene" uid="uid://cfmdvkmeffqcw" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_2_edge.tscn" id="25_rjd26"]
+[ext_resource type="PackedScene" uid="uid://70couj6xwyd1" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a.tscn" id="26_g7kst"]
+[ext_resource type="PackedScene" uid="uid://dhon15ybrwl0l" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_edge.tscn" id="27_2kstj"]
+[ext_resource type="PackedScene" uid="uid://bb6tgcqghpfer" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_corner_outer_edge.tscn" id="28_ay5a5"]
+[ext_resource type="PackedScene" uid="uid://v45exrg5cnv" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_corner_inner_edge.tscn" id="29_ffip2"]
+[ext_resource type="PackedScene" uid="uid://b3fktcshed5r3" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_side_1.tscn" id="30_ac7s3"]
+[ext_resource type="PackedScene" uid="uid://k4py8luvqj85" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_side_2_edge.tscn" id="31_oanf5"]
+[ext_resource type="PackedScene" uid="uid://d2u3630ef3vuv" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_side_1_edge.tscn" id="32_h8ogc"]
+[ext_resource type="PackedScene" uid="uid://b4cvqk4j54vnw" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_edge.tscn" id="33_52cow"]
+[ext_resource type="PackedScene" uid="uid://bhxsmgqsvk03" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b.tscn" id="34_7fh8w"]
+[ext_resource type="PackedScene" uid="uid://b7dnm2h2wvn5d" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_corner_inner_half_2.tscn" id="35_4pa2y"]
+[ext_resource type="PackedScene" uid="uid://b482rwkkflbe1" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_corner_outer.tscn" id="36_mws8f"]
+[ext_resource type="PackedScene" uid="uid://bbcoh62ayn5p5" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_corner_inner_half_1.tscn" id="37_q6bwh"]
+[ext_resource type="PackedScene" uid="uid://cvsbs6l0qgay5" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_corner_outer_edge.tscn" id="38_br2ac"]
+[ext_resource type="PackedScene" uid="uid://cd0eeax1v84cg" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_corner_inner_edge.tscn" id="39_kmybj"]
+[ext_resource type="PackedScene" uid="uid://c5li4ht5nkylh" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_1_ridge.tscn" id="40_8nyfa"]
+[ext_resource type="PackedScene" uid="uid://buk6kjhft6sys" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/wall_roof_a_tri.tscn" id="41_hf6k4"]
+[ext_resource type="PackedScene" uid="uid://bqxn6b4skglas" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_side_2_ridge.tscn" id="42_g2vt5"]
+[ext_resource type="PackedScene" uid="uid://cer215p6x6f7s" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_ridge.tscn" id="43_xadsv"]
+[ext_resource type="PackedScene" uid="uid://mo5reog6gmid" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_b_side_1_ridge.tscn" id="44_pyrxq"]
+[ext_resource type="PackedScene" uid="uid://cnbkuh20hcww6" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/wall_roof_b_tri.tscn" id="45_u4124"]
+[ext_resource type="PackedScene" uid="uid://ck42cko44h4dv" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/wall_roof_b.tscn" id="46_iob6d"]
+[ext_resource type="PackedScene" uid="uid://qf3xv4inncby" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/wall_roof_a.tscn" id="47_4b7fr"]
+[ext_resource type="PackedScene" uid="uid://dkwqg5n6mvvxw" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_side_2_ridge.tscn" id="48_tm8kj"]
+[ext_resource type="PackedScene" uid="uid://bexpepyf23ljt" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Roof/roof_a_ridge.tscn" id="49_buc43"]
+[ext_resource type="PackedScene" uid="uid://bygfrd1ar1n3n" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_floor.tscn" id="50_rkkqp"]
+[ext_resource type="PackedScene" uid="uid://c6ktfkk62tf2p" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_side_plank.tscn" id="51_mr8qj"]
+[ext_resource type="PackedScene" uid="uid://cup1tw2yjxm7g" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_side_boards.tscn" id="52_cr25a"]
+[ext_resource type="PackedScene" uid="uid://dvn5hpjagr1t5" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_corner.tscn" id="53_edwj1"]
+[ext_resource type="PackedScene" uid="uid://b5m4087oh7slr" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_half_2.tscn" id="54_2aw2j"]
+[ext_resource type="PackedScene" uid="uid://m67pehr21jjr" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_half_1.tscn" id="55_xr1k8"]
+[ext_resource type="PackedScene" uid="uid://13t8qoauqaxs" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_quarter_corner.tscn" id="56_8fmp3"]
+[ext_resource type="PackedScene" uid="uid://coihxvnbqx6gg" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_quarter.tscn" id="57_lx3gx"]
+[ext_resource type="PackedScene" uid="uid://cafqj4cy71d7n" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_side_plank_half.tscn" id="58_8556p"]
+[ext_resource type="PackedScene" uid="uid://b2yycl04t4te5" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_side_boards_half.tscn" id="59_gjdy7"]
+[ext_resource type="PackedScene" uid="uid://b4u43178ht1m6" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_support_half.tscn" id="60_th7in"]
+[ext_resource type="PackedScene" uid="uid://78kkabdta0ma" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_support.tscn" id="61_gc5kn"]
+[ext_resource type="PackedScene" uid="uid://cghw1vrsd14f8" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_support_quarter.tscn" id="62_papbl"]
+[ext_resource type="PackedScene" uid="uid://cugb8xfyi0bw0" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_dock.tscn" id="63_yd1cn"]
+[ext_resource type="PackedScene" uid="uid://67i08axi4in6" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_dock_end.tscn" id="64_f2lno"]
+[ext_resource type="PackedScene" uid="uid://djq8koauvx5py" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_dock_end_half.tscn" id="65_lqbw4"]
+[ext_resource type="PackedScene" uid="uid://hpc23bm7xk1b" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Floor/floor_dock_half.tscn" id="66_skbcs"]
+[ext_resource type="PackedScene" uid="uid://cmjatojbqg2om" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_post.tscn" id="67_kkod8"]
+[ext_resource type="PackedScene" uid="uid://bqae7mtk2n5ht" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_block_1.tscn" id="68_lx84x"]
+[ext_resource type="PackedScene" uid="uid://biqw1hnytmedg" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_block_2.tscn" id="69_2l1r4"]
+[ext_resource type="PackedScene" uid="uid://bdkeompuwghtn" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_post_half.tscn" id="70_nnfr4"]
+[ext_resource type="PackedScene" uid="uid://cnxysvdgpsntf" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_block_1_half.tscn" id="71_kfg6h"]
+[ext_resource type="PackedScene" uid="uid://dhrcs3etibsse" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_block_2_half.tscn" id="72_nduen"]
+[ext_resource type="PackedScene" uid="uid://dldy0r5lfklbd" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_plane.tscn" id="73_uf6ui"]
+[ext_resource type="PackedScene" uid="uid://cvkv1oxvifdyq" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_planes_1.tscn" id="74_yeqpp"]
+[ext_resource type="PackedScene" uid="uid://cti2k05mk6ehs" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_planes_2.tscn" id="75_ypron"]
+[ext_resource type="PackedScene" uid="uid://b5oduo8hbvgi0" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_plane_half.tscn" id="76_q2ugm"]
+[ext_resource type="PackedScene" uid="uid://ebotge7plnbs" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_planes_1_half.tscn" id="77_harb0"]
+[ext_resource type="PackedScene" uid="uid://16jhf02plkqs" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Supports/support_planes_2_half.tscn" id="78_07rds"]
+[ext_resource type="PackedScene" uid="uid://cinspgkifkfbi" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Stairs/stairs_b_support.tscn" id="79_g7v7a"]
+[ext_resource type="PackedScene" uid="uid://c0o1pnvdb2bvi" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Stairs/stairs_a_support_2.tscn" id="80_vj2a4"]
+[ext_resource type="PackedScene" uid="uid://bpnga80hb48w6" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Stairs/stairs_a.tscn" id="81_er7pg"]
+[ext_resource type="PackedScene" uid="uid://bghbfrcxeg72o" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Stairs/stairs_b.tscn" id="82_7sp31"]
+[ext_resource type="PackedScene" uid="uid://byd1wm8e6xxmd" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/Stairs/stairs_a_support_1.tscn" id="83_5u8nu"]
+[ext_resource type="PackedScene" uid="uid://0qvqki5vwmec" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_box.tscn" id="84_4ynun"]
+[ext_resource type="PackedScene" uid="uid://lubpl0uuh0ow" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_barrel.tscn" id="85_p3mga"]
+[ext_resource type="PackedScene" uid="uid://mg2kyfoyno2j" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_fish_1.tscn" id="86_155ah"]
+[ext_resource type="PackedScene" uid="uid://k7xjsls43ota" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_fish_2.tscn" id="87_tyr8s"]
+[ext_resource type="PackedScene" uid="uid://ttn8lh60yu7b" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_table_2.tscn" id="88_bu6sr"]
+[ext_resource type="PackedScene" uid="uid://cdffye8j5woan" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_table_1.tscn" id="89_kg2ly"]
+[ext_resource type="PackedScene" uid="uid://ud6nq4vkrl4h" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_stool.tscn" id="90_ww208"]
+[ext_resource type="PackedScene" uid="uid://d33linee271q6" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_bed_1.tscn" id="91_ma15v"]
+[ext_resource type="PackedScene" uid="uid://du7iwrsiggp4p" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_chair.tscn" id="92_4rle8"]
+[ext_resource type="PackedScene" uid="uid://nosd0bciv3s8" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_bench.tscn" id="93_ph8qe"]
+[ext_resource type="PackedScene" uid="uid://cgbulycr0fd6f" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_rack_fish.tscn" id="94_wuwy8"]
+[ext_resource type="PackedScene" uid="uid://48v6ibsy56x1" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_bed_2.tscn" id="95_tt8g4"]
+[ext_resource type="PackedScene" uid="uid://deqdpgsbvevcp" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_table_round.tscn" id="96_hk3p1"]
+[ext_resource type="PackedScene" uid="uid://ca00a4mxchgve" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_stool_round.tscn" id="97_42ewt"]
+[ext_resource type="PackedScene" uid="uid://wpx05w8ny6br" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_shelf_2.tscn" id="98_32d8k"]
+[ext_resource type="PackedScene" uid="uid://bdh6ykyyje1i4" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_table_3.tscn" id="99_6qc7s"]
+[ext_resource type="PackedScene" uid="uid://dqtli37mdhc1e" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_shelf_1.tscn" id="100_567er"]
+[ext_resource type="PackedScene" uid="uid://bfn31qb10redj" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_table_4.tscn" id="101_yow45"]
+[ext_resource type="PackedScene" uid="uid://cwxc4ip5gal33" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_stool_small.tscn" id="102_lv3je"]
+[ext_resource type="PackedScene" uid="uid://ddvrbxd6ndtm" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_crate.tscn" id="103_k0666"]
+[ext_resource type="PackedScene" uid="uid://dd3rb41128ex1" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/props_rack.tscn" id="104_i77ou"]
+[ext_resource type="PackedScene" uid="uid://x4rvyub8ee7a" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/rope_segment.tscn" id="105_apvd0"]
+[ext_resource type="PackedScene" uid="uid://cttojvfpfkvd2" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/rope_coil_001.tscn" id="106_2xilo"]
+[ext_resource type="PackedScene" uid="uid://b4qdu4mvtbg06" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/dock_bollard_half_1.tscn" id="107_p5d8f"]
+[ext_resource type="PackedScene" uid="uid://h41yy1hjdsde" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/lantern_body.tscn" id="108_8uia4"]
+[ext_resource type="PackedScene" uid="uid://csmr1rh1aapqt" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_b_1.tscn" id="109_stxqq"]
+[ext_resource type="PackedScene" uid="uid://800fcf16v2r3" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_a_2.tscn" id="110_arh40"]
+[ext_resource type="PackedScene" uid="uid://cinv6ujxpaf2v" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_b_3.tscn" id="111_mrsd2"]
+[ext_resource type="PackedScene" uid="uid://btq0titxeld07" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_a_3.tscn" id="112_7v6ha"]
+[ext_resource type="PackedScene" uid="uid://ev05vdddbo78" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_stand.tscn" id="113_bfies"]
+[ext_resource type="PackedScene" uid="uid://bsw06u8yu1f6t" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/paddle_2.tscn" id="114_dedpq"]
+[ext_resource type="PackedScene" uid="uid://bun562jwdydnt" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/paddle_1.tscn" id="115_e1ihk"]
+[ext_resource type="PackedScene" uid="uid://dygs5pcbfejrc" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/paddle_3.tscn" id="116_tt4wv"]
+[ext_resource type="PackedScene" uid="uid://b5birr0y65mj3" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_a_1.tscn" id="117_61lki"]
+[ext_resource type="PackedScene" uid="uid://byuv6gtc6hjjl" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/boat_b_2.tscn" id="118_dgfo5"]
+[ext_resource type="PackedScene" uid="uid://busp7wjunx16p" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/dock_bollard_2.tscn" id="119_wrcm4"]
+[ext_resource type="PackedScene" uid="uid://cvvahe41u2m6a" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/lantern_lamp.tscn" id="120_x7m0g"]
+[ext_resource type="PackedScene" uid="uid://c0uansweeog15" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/dock_bollard_1.tscn" id="121_7032r"]
+[ext_resource type="PackedScene" uid="uid://r13c8dtcmmsv" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/dock_bollard_3.tscn" id="122_t3q1i"]
+[ext_resource type="PackedScene" uid="uid://cifuaqhxjw4bs" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/dock_bollard_half_2.tscn" id="123_m2i4c"]
+[ext_resource type="PackedScene" uid="uid://denpjx6f4b7eg" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/post.tscn" id="124_sf3ku"]
+[ext_resource type="PackedScene" uid="uid://bhy31jiebnnp8" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/lantern_frame.tscn" id="125_4sww6"]
+[ext_resource type="PackedScene" uid="uid://bnly6ey42phh3" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/fence_post.tscn" id="126_lx8u4"]
+[ext_resource type="PackedScene" uid="uid://clwtmt4tvm1ch" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/fence_plane.tscn" id="127_e2yl2"]
+[ext_resource type="PackedScene" uid="uid://cdhjb40xoq50i" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/fence_plane_half.tscn" id="128_l0q6v"]
+[ext_resource type="PackedScene" uid="uid://dthvrc1fi0t36" path="res://Tutorial/FPS/player.tscn" id="129_67fia"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4g5tx"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_slti6"]
+sky_material = SubResource("ProceduralSkyMaterial_4g5tx")
+
+[sub_resource type="Environment" id="Environment_36dma"]
+background_mode = 2
+sky = SubResource("Sky_slti6")
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_pbp3r"]
+size = Vector2(125, 125)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_84kj6"]
+albedo_color = Color(0.321569, 0.321569, 0.321569, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_t5sqx"]
+data = PackedVector3Array(62.5, 0, 62.5, -62.5, 0, 62.5, 62.5, 0, -62.5, -62.5, 0, 62.5, -62.5, 0, -62.5, 62.5, 0, -62.5)
+
+[node name="WoodenDockSet" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_36dma")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.69506, 0.546695, -0.466922, 3.5751e-09, 0.649448, 0.760406, 0.718952, -0.528528, 0.451405, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Walls" type="Node3D" parent="."]
+
+[node name="Wall_Corner_Ext" parent="Walls" instance=ExtResource("1_ilhn5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 0)
+
+[node name="Wall_Wall" parent="Walls" instance=ExtResource("2_kk4m2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="Wall_Pillar_Plane" parent="Walls" instance=ExtResource("3_ay7ti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="Wall_Beam_Plane" parent="Walls" instance=ExtResource("4_aimoi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="Wall_Door_2" parent="Walls" instance=ExtResource("5_3syu8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Wall_Door_3" parent="Walls" instance=ExtResource("6_tbmkx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
+
+[node name="Wall_Door_4" parent="Walls" instance=ExtResource("7_xiup7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0)
+
+[node name="Wall_Window_1" parent="Walls" instance=ExtResource("8_d2g1q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 0)
+
+[node name="Wall_Window_2" parent="Walls" instance=ExtResource("9_a5n5q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, 0)
+
+[node name="Wall_Window_3" parent="Walls" instance=ExtResource("10_ua5xq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 0, 0)
+
+[node name="Wall_Window_4" parent="Walls" instance=ExtResource("11_v4a50")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 0)
+
+[node name="Walls_Pillar_Int" parent="Walls" instance=ExtResource("12_t6qjv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 0)
+
+[node name="Walls_Pillar_Ext" parent="Walls" instance=ExtResource("13_8mqvw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 0, 0)
+
+[node name="Walls_Pillar_Ext2" parent="Walls" instance=ExtResource("13_8mqvw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, 0)
+
+[node name="Walls_Beams_Ext" parent="Walls" instance=ExtResource("14_gmc5s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 0)
+
+[node name="Walls_Beams_Int" parent="Walls" instance=ExtResource("15_s7yne")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 0)
+
+[node name="Wall_Corner_Int" parent="Walls" instance=ExtResource("16_onqp6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="Wall_Door_1" parent="Walls" instance=ExtResource("17_2ba06")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0)
+
+[node name="Roof" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3734, 0, -5.0749)
+
+[node name="Roof_B_Side_2" parent="Roof" instance=ExtResource("18_cfbuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
+
+[node name="Roof_A_Corner_Inner_Half_2" parent="Roof" instance=ExtResource("19_xevqt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, -1)
+
+[node name="Roof_A_Corner_Inner_Half_1" parent="Roof" instance=ExtResource("20_5psji")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, -1)
+
+[node name="Roof_A_Corner_Outer" parent="Roof" instance=ExtResource("21_b21js")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, 5)
+
+[node name="Roof_A_Side_2" parent="Roof" instance=ExtResource("22_n6txy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 5)
+
+[node name="Roof_A_Side_1" parent="Roof" instance=ExtResource("23_jf3or")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -1)
+
+[node name="Roof_A_Side_1_Edge" parent="Roof" instance=ExtResource("24_deaml")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -1)
+
+[node name="Roof_A_Side_2_Edge" parent="Roof" instance=ExtResource("25_rjd26")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 5)
+
+[node name="Roof_A" parent="Roof" instance=ExtResource("26_g7kst")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, 5)
+
+[node name="Roof_A_Edge" parent="Roof" instance=ExtResource("27_2kstj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, 5)
+
+[node name="Roof_A_Corner_Outer_Edge" parent="Roof" instance=ExtResource("28_ay5a5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, 5)
+
+[node name="Roof_A_Corner_Inner_Edge" parent="Roof" instance=ExtResource("29_ffip2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, -1)
+
+[node name="Roof_B_Side_1" parent="Roof" instance=ExtResource("30_ac7s3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Roof_B_Side_2_Edge" parent="Roof" instance=ExtResource("31_oanf5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
+
+[node name="Roof_B_Side_1_Edge" parent="Roof" instance=ExtResource("32_h8ogc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Roof_B_Edge" parent="Roof" instance=ExtResource("33_52cow")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
+
+[node name="Roof_B" parent="Roof" instance=ExtResource("34_7fh8w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
+
+[node name="Roof_B_Corner_Inner_Half_2" parent="Roof" instance=ExtResource("35_4pa2y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
+
+[node name="Roof_B_Corner_Outer" parent="Roof" instance=ExtResource("36_mws8f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 5)
+
+[node name="Roof_B_Corner_Inner_Half_1" parent="Roof" instance=ExtResource("37_q6bwh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
+
+[node name="Roof_B_Corner_Outer_Edge" parent="Roof" instance=ExtResource("38_br2ac")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 5)
+
+[node name="Roof_B_Corner_Inner_Edge" parent="Roof" instance=ExtResource("39_kmybj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
+
+[node name="Roof_A_Side_1_Ridge" parent="Roof" instance=ExtResource("40_8nyfa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -1)
+
+[node name="Wall_Roof_A_Tri" parent="Roof" instance=ExtResource("41_hf6k4")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -18, 4, -1)
+
+[node name="Roof_B_Side_2_Ridge" parent="Roof" instance=ExtResource("42_g2vt5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
+
+[node name="Roof_B_Ridge" parent="Roof" instance=ExtResource("43_xadsv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
+
+[node name="Roof_B_Side_1_Ridge" parent="Roof" instance=ExtResource("44_pyrxq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Wall_Roof_B_Tri" parent="Roof" instance=ExtResource("45_u4124")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -2, 4, 1)
+
+[node name="Wall_Roof_B" parent="Roof" instance=ExtResource("46_iob6d")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 4, 1)
+
+[node name="Wall_Roof_A" parent="Roof" instance=ExtResource("47_4b7fr")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -16, 4, -1)
+
+[node name="Roof_A_Side_2_Ridge" parent="Roof" instance=ExtResource("48_tm8kj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 5)
+
+[node name="Roof_A_Ridge" parent="Roof" instance=ExtResource("49_buc43")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, 5)
+
+[node name="Floor" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.23893, 0, 12.9201)
+
+[node name="Floor_Floor" parent="Floor" instance=ExtResource("50_rkkqp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+
+[node name="Floor_Side_Plank" parent="Floor" instance=ExtResource("51_mr8qj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2)
+
+[node name="Floor_Side_Boards" parent="Floor" instance=ExtResource("52_cr25a")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2, 2, 0)
+
+[node name="Floor_Corner" parent="Floor" instance=ExtResource("53_edwj1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -4)
+
+[node name="Floor_Half_2" parent="Floor" instance=ExtResource("54_2aw2j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 0)
+
+[node name="Floor_Half_1" parent="Floor" instance=ExtResource("55_xr1k8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 2, 1)
+
+[node name="Floor_Quarter_Corner" parent="Floor" instance=ExtResource("56_8fmp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 2, 1)
+
+[node name="Floor_Quarter" parent="Floor" instance=ExtResource("57_lx3gx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 2, -1)
+
+[node name="Floor_Side_Plank_Half" parent="Floor" instance=ExtResource("58_8556p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 2)
+
+[node name="Floor_Side_Boards_Half" parent="Floor" instance=ExtResource("59_gjdy7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 2, 2)
+
+[node name="Floor_Support_Half" parent="Floor" instance=ExtResource("60_th7in")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+
+[node name="Floor_Support" parent="Floor" instance=ExtResource("61_gc5kn")]
+
+[node name="Floor_Support_Quarter" parent="Floor" instance=ExtResource("62_papbl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 1)
+
+[node name="Floor_Dock" parent="Floor" instance=ExtResource("63_yd1cn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 4)
+
+[node name="Floor_Dock_End" parent="Floor" instance=ExtResource("64_f2lno")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 8)
+
+[node name="Floor_Dock_End_Half" parent="Floor" instance=ExtResource("65_lqbw4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 2, 5)
+
+[node name="Floor_Dock_Half" parent="Floor" instance=ExtResource("66_skbcs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 2, 3)
+
+[node name="Supports" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.75159, -9.53674e-07, 15.4744)
+
+[node name="Support_Post" parent="Supports" instance=ExtResource("67_kkod8")]
+
+[node name="Support_Block_1" parent="Supports" instance=ExtResource("68_lx84x")]
+
+[node name="Support_Block_2" parent="Supports" instance=ExtResource("69_2l1r4")]
+
+[node name="Support_Post_Half" parent="Supports" instance=ExtResource("70_nnfr4")]
+
+[node name="Support_Block_1_half" parent="Supports" instance=ExtResource("71_kfg6h")]
+
+[node name="Support_Block_2_half" parent="Supports" instance=ExtResource("72_nduen")]
+
+[node name="Support_Plane" parent="Supports" instance=ExtResource("73_uf6ui")]
+
+[node name="Support_Planes_1" parent="Supports" instance=ExtResource("74_yeqpp")]
+
+[node name="Support_Planes_2" parent="Supports" instance=ExtResource("75_ypron")]
+
+[node name="Support_Plane_Half" parent="Supports" instance=ExtResource("76_q2ugm")]
+
+[node name="Support_Planes_1_Half" parent="Supports" instance=ExtResource("77_harb0")]
+
+[node name="Support_Planes_2_Half" parent="Supports" instance=ExtResource("78_07rds")]
+
+[node name="Stairs" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 13)
+
+[node name="Stairs_B_Support" parent="Stairs" instance=ExtResource("79_g7v7a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Stairs_A_Support_2" parent="Stairs" instance=ExtResource("80_vj2a4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 1)
+
+[node name="Stairs_A" parent="Stairs" instance=ExtResource("81_er7pg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 1, 0)
+
+[node name="Stairs_B" parent="Stairs" instance=ExtResource("82_7sp31")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1)
+
+[node name="Stairs_A_Support_1" parent="Stairs" instance=ExtResource("83_5u8nu")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 1)
+
+[node name="Props" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.492, -9.53674e-07, 8.73687)
+
+[node name="Props_Box" parent="Props" instance=ExtResource("84_4ynun")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+
+[node name="Props_Barrel" parent="Props" instance=ExtResource("85_p3mga")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -2)
+
+[node name="Props_Fish_1" parent="Props" instance=ExtResource("86_155ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.78164, 0.945095, -0.565181)
+
+[node name="Props_Fish_2" parent="Props" instance=ExtResource("87_tyr8s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.32645, 0.977846, -0.552919)
+
+[node name="Props_Table_2" parent="Props" instance=ExtResource("88_bu6sr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
+
+[node name="Props_Table_1" parent="Props" instance=ExtResource("89_kg2ly")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
+
+[node name="Props_Stool" parent="Props" instance=ExtResource("90_ww208")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="Props_Bed_1" parent="Props" instance=ExtResource("91_ma15v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -1)
+
+[node name="Props_Chair" parent="Props" instance=ExtResource("92_4rle8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="Props_Bench" parent="Props" instance=ExtResource("93_ph8qe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Props_Rack_Fish" parent="Props" instance=ExtResource("94_wuwy8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -3)
+
+[node name="Props_Bed_2" parent="Props" instance=ExtResource("95_tt8g4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
+
+[node name="Props_Table_Round" parent="Props" instance=ExtResource("96_hk3p1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.909801, -4)
+
+[node name="Props_Stool_Round" parent="Props" instance=ExtResource("97_42ewt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="Props_Shelf_2" parent="Props" instance=ExtResource("98_32d8k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5)
+
+[node name="Props_Table_3" parent="Props" instance=ExtResource("99_6qc7s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+
+[node name="Props_Shelf_1" parent="Props" instance=ExtResource("100_567er")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -5)
+
+[node name="Props_Table_4" parent="Props" instance=ExtResource("101_yow45")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
+
+[node name="Props_Stool_Small" parent="Props" instance=ExtResource("102_lv3je")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Props_Crate" parent="Props" instance=ExtResource("103_k0666")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.989051, -1)
+
+[node name="Props_Rack" parent="Props" instance=ExtResource("104_i77ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -5)
+
+[node name="RopeSegment" parent="Props" instance=ExtResource("105_apvd0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.279424, -1.4)
+
+[node name="Rope_Coil_001" parent="Props" instance=ExtResource("106_2xilo")]
+transform = Transform3D(0.894601, 0, 0, 0, 0.765248, 0, 0, 0, 0.894601, 6, 0.253743, -1)
+
+[node name="Dock_Bollard_Half_1" parent="Props" instance=ExtResource("107_p5d8f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 1)
+
+[node name="Lantern_Body" parent="Props" instance=ExtResource("108_8uia4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 1)
+
+[node name="Boat_B_1" parent="Props" instance=ExtResource("109_stxqq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Boat_A_2" parent="Props" instance=ExtResource("110_arh40")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 3)
+
+[node name="Boat_B_3" parent="Props" instance=ExtResource("111_mrsd2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 3)
+
+[node name="Boat_A_3" parent="Props" instance=ExtResource("112_7v6ha")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3)
+
+[node name="Boat_Stand" parent="Props" instance=ExtResource("113_bfies")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 4)
+
+[node name="Paddle_2" parent="Props" instance=ExtResource("114_dedpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1.02176, -1)
+
+[node name="Paddle_1" parent="Props" instance=ExtResource("115_e1ihk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.483569, 1.02273, -0.89729)
+
+[node name="Paddle_3" parent="Props" instance=ExtResource("116_tt4wv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.59057, 1.01895, -0.911896)
+
+[node name="Boat_A_1" parent="Props" instance=ExtResource("117_61lki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.10866, 0, 3.53648)
+
+[node name="Boat_B_2" parent="Props" instance=ExtResource("118_dgfo5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.40878, 4.76837e-07, 3.52506)
+
+[node name="Dock_Bollard_2" parent="Props" instance=ExtResource("119_wrcm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.3604, 0, 2.36322)
+
+[node name="Lantern_Lamp" parent="Props" instance=ExtResource("120_x7m0g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.03941, 0.635591, -0.373174)
+
+[node name="Dock_Bollard_1" parent="Props" instance=ExtResource("121_7032r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.77378, 0, 1.35125)
+
+[node name="Dock_Bollard_3" parent="Props" instance=ExtResource("122_t3q1i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.72345, 0, 2.16134)
+
+[node name="Dock_Bollard_Half_2" parent="Props" instance=ExtResource("123_m2i4c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.88648, 0, 2.61136)
+
+[node name="Post" parent="Props" instance=ExtResource("124_sf3ku")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.2968, 0, 0.504391)
+
+[node name="Lantern_Frame" parent="Props" instance=ExtResource("125_4sww6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.98961, 0.184895, -1.44948)
+
+[node name="Fence_Post" parent="Props" instance=ExtResource("126_lx8u4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.64532, 4.76837e-07, -0.742587)
+
+[node name="Fence_Plane" parent="Props" instance=ExtResource("127_e2yl2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.64532, 4.76837e-07, -0.742587)
+
+[node name="Fence_Plane_Half" parent="Props" instance=ExtResource("128_l0q6v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.6453, 4.76837e-07, -0.742587)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_pbp3r")
+surface_material_override/0 = SubResource("StandardMaterial3D_84kj6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_t5sqx")
+
+[node name="Player" parent="." instance=ExtResource("129_67fia")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.26473, 2.71684, 12.0476)

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c46gsacdkifjo"
+path="res://.godot/imported/fluorescent_switch1 (1).mp3-22f756fe4028b6b054682db1572d1723.mp3str"
+
+[deps]
+
+source_file="res://fluorescent_switch1 (1).mp3"
+dest_files=["res://.godot/imported/fluorescent_switch1 (1).mp3-22f756fe4028b6b054682db1572d1723.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

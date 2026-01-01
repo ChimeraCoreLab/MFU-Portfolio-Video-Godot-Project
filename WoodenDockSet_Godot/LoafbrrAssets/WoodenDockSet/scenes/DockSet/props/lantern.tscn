@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c43uxgh2d7ug2"]
+
+[ext_resource type="PackedScene" uid="uid://h41yy1hjdsde" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/lantern_body.tscn" id="1_ivfj8"]
+[ext_resource type="PackedScene" uid="uid://bhy31jiebnnp8" path="res://Assets/LoafbrrAssets/WoodenDockSet/scenes/DockSet/props/lantern_frame.tscn" id="2_tco3s"]
+
+[node name="Lantern" type="Node3D"]
+
+[node name="Lantern_Body2" parent="." instance=ExtResource("1_ivfj8")]
+
+[node name="Lantern_Frame2" parent="." instance=ExtResource("2_tco3s")]

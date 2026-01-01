@@ -1,0 +1,17 @@
+[gd_resource type="NoiseTexture2D" load_steps=3 format=3 uid="uid://bgfoo80n5muc6"]
+
+[ext_resource type="FastNoiseLite" uid="uid://d0d561w1kin1c" path="res://WoodenDockSet_Godot/LoafbrrAssets/WoodenDockSet/materials/Noise/WaterNoise.tres" id="1_dyjdf"]
+
+[sub_resource type="Gradient" id="Gradient_4aue2"]
+interpolation_mode = 2
+interpolation_color_space = 1
+colors = PackedColorArray(0.654232, 0.654232, 0.654232, 1, 0.830335, 0.830335, 0.830335, 1)
+
+[resource]
+generate_mipmaps = false
+noise = ExtResource("1_dyjdf")
+color_ramp = SubResource("Gradient_4aue2")
+seamless = true
+in_3d_space = true
+as_normal_map = true
+bump_strength = 4.0

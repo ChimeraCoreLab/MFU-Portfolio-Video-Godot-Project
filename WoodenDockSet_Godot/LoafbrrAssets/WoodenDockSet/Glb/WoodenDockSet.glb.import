@@ -1,0 +1,115 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://bur0qkiu8epwr"
+path="res://.godot/imported/WoodenDockSet.glb-81e6671d80c45b0e7e26a7eade358037.scn"
+
+[deps]
+
+source_file="res://WoodenDockSet_Godot/LoafbrrAssets/WoodenDockSet/Glb/WoodenDockSet.glb"
+dest_files=["res://.godot/imported/WoodenDockSet.glb-81e6671d80c45b0e7e26a7eade358037.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"Beams_mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/WoodBeams.material"
+},
+"BoatTrim_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/BoatTrim.material"
+},
+"Ceilng": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Ceiling.material"
+},
+"DockTrim_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/DockTrim.material"
+},
+"Doors_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Doors.material"
+},
+"Fish_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Fish.material"
+},
+"Floor_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Floor.material"
+},
+"Glass_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Glass.material"
+},
+"Harpoon": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Harpoon.material"
+},
+"Lantern_Light": {
+"use_external/enabled": false,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/LampLight.material"
+},
+"Roof": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Roof.material"
+},
+"Rope": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Rope.material"
+},
+"Wall_Exterior_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Ext.material"
+},
+"Wall_Interior_Mat": {
+"use_external/enabled": true,
+"use_external/fallback_path": "",
+"use_external/path": "res://Assets/LoafbrrAssets/WoodenDockSet/materials/Wall_Int.material"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1
