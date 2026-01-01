@@ -24,7 +24,7 @@ It serves as a practical demonstration of my abilities in:
     ```bash
     git clone https://github.com/Bas616/MFU-Portfolio-Video-Godot-Project.git
     ```
-2.  Open the project in **Godot Engine 4.x**.
+2.  Open the project in **Godot Engine 4.5.1**.
 3.  The main scene containing the entire animation timeline is `scenes/master_scene.tscn`.
 4.  Open the `AnimationPlayer` node within that scene to explore the full timeline and all keyframed tracks.
 
