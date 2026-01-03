@@ -1,6 +1,6 @@
 # Project: Digital Architect (MFU Portfolio Video)
 
-[![Godot Version](https://img.shields.io/badge/Godot-4.x-478CBF?style=for-the-badge&logo=godot-engine)](https://godotengine.org/) [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Godot Version](https://img.shields.io/badge/Godot-4.5.1-478CBF?style=for-the-badge&logo=godot-engine)](https://godotengine.org/) [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 This repository contains the complete and open-source Godot Engine project files for my 3-minute self-introduction video, created for my application to Mae Fah Luang University's (MFU) "Digital Technology for Business Innovation" program.
 
